@@ -1,33 +1,25 @@
 # Цех глазированных сырков
 
-## Общая схема работы
+## Нанесение кодов маркировки в ручном режиме
+
+После загрузки кодов маркировки
 
 ``` mermaid
 graph LR
-  A[Заказ кодов] --> B[Получение];
-  B -->|Yes| C[Hmm...];
+  A[Заказ кодов] --> B[USB];
+  B -->|Загрузка| C[Загрузка в принтер];
   C --> D[Debug];
   D --> B;
   B ---->|No| E[Yay!];
 ```
 
-## Фасовка сырков на палочке
-
-<figure markdown>
-  ![Image title](../assets/logo.png){width="200"}
-  <figcaption>Image caption</figcaption>
-</figure>
-
-
-
-## Отчет о нанесении
-
+1. Открыть приложение Simple на мобильном устройстве.
 <figure markdown>
   ![Image title](../assets/Pict01_icon.jpg){width="200"}
   <figcaption>Image caption</figcaption>
 </figure>
 
-## Корректировка отчета о нанесении
+1. В открывшемся окне необходимо выбрать команду "Электронный журнал".
 
 <figure markdown>
   ![Image title](../assets/Pict02_start.png){width="200"}
